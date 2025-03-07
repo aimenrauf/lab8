@@ -11,7 +11,7 @@ class Queue:
         return len(self.items) == 0
     def size(self):
         return len(self.items)
-
+    
 def is_palindrome(s):
     queue = Queue()
     for char in s:
